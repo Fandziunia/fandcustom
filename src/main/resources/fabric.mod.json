@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "fandcustom",
+	"id": "fandexpansion",
 	"version": "${version}",
-	"name": "Fand Custom",
-	"description": "This is another attempt at making my mod",
+	"name": "Fand's Expansion",
+	"description": "Adding stuff for my modpack",
 	"authors": [
 		"fandziunia"
 	],
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/fandcustom/icon.png",
+	"icon": "assets/fandexpansion/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fandziunia.fandcustom.FandCustom"
+			"net.fandziunia.fandexpansion.FandExpansion"
 		],
 		"client": [
-			"net.fandziunia.fandcustom.FandCustomClient"
+			"net.fandziunia.fandexpansion.FandExpansionClient"
 		],
 		"fabric-datagen": [
-			"net.fandziunia.fandcustom.FandCustomDataGenerator"
+			"net.fandziunia.fandexpansion.FandExpansionDataGenerator"
 		]
 	},
 	"mixins": [
-		"fandcustom.mixins.json"
+      "fandexpansion.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",
