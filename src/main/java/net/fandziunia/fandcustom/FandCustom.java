@@ -2,6 +2,7 @@ package net.fandziunia.fandcustom;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fandziunia.fandcustom.item.FandItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class FandCustom implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		FandItems.registerModItems();
 	}
 }
