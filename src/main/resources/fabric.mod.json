@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fandcustom",
+	"version": "${version}",
+	"name": "Fand Custom",
+	"description": "This is another attempt at making my mod",
+	"authors": [
+		"fandziunia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fandcustom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fandziunia.fandcustom.FandCustom"
+		],
+		"client": [
+			"net.fandziunia.fandcustom.FandCustomClient"
+		],
+		"fabric-datagen": [
+			"net.fandziunia.fandcustom.FandCustomDataGenerator"
+		]
+	},
+	"mixins": [
+		"fandcustom.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
