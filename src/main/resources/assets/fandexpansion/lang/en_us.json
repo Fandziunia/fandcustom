@@ -1,5 +1,23 @@
 {
   "item.fandexpansion.superior_ingot": "Superior Ingot",
   "item.fandexpansion.superior_nugget": "Superior Nugget",
+  "item.fandexpansion.superior_particle": "Superior Particle",
+  "item.fandexpansion.superior_apple": "Superior Apple",
+  "item.fandexpansion.superior_sword": "Superior Apple",
+  "item.fandexpansion.superior_axe": "Superior Apple",
+  "item.fandexpansion.superior_pickaxe": "Superior Pickaxe",
+  "item.fandexpansion.superior_shovel": "Superior Shovel",
+  "item.fandexpansion.superior_hoe": "Superior Hoe",
+  "block.fandexpansion.superior_block": "Superior Block",
+  "block.fandexpansion.superior_stairs": "Superior Stairs",
+  "block.fandexpansion.superior_slab": "Superior Slab",
+  "block.fandexpansion.superior_button": "Superior Button",
+  "block.fandexpansion.superior_pressure_plate": "Superior Pressure Plate",
+  "block.fandexpansion.superior_wall": "Superior Wall",
+  "block.fandexpansion.superior_fence": "Superior Fence",
+  "block.fandexpansion.superior_fence_gate": "Superior Fence Gate",
+  "block.fandexpansion.superior_door": "Superior Door",
+  "block.fandexpansion.superior_trapdoor": "Superior Trapdoor",
+  "tooltip.fandexpansion.superior_apple.tooltip": "This is superior apple tooltip which doesn't work for some reason",
   "fanditemgroup.fandmodname": "Fand's Expansion"
 }

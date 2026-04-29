@@ -2,8 +2,9 @@ package net.fandziunia.fandexpansion;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fandziunia.fandexpansion.block.FandBlocks;
 import net.fandziunia.fandexpansion.item.FandItems;
-import net.fandziunia.fandexpansion.item.fandItemGroups;
+import net.fandziunia.fandexpansion.item.FandItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +14,8 @@ public class FandExpansion implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		fandItemGroups.registerItemGroups();
+		FandItemGroups.registerItemGroups();
+		FandBlocks.registerFandBlocks();
 		FandItems.registerModItems();
 	}
 }
