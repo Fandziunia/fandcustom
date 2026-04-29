@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fandexpansion:block/superior_slab"
+    },
+    "type=double": {
+      "model": "fandexpansion:block/superior_block"
+    },
+    "type=top": {
+      "model": "fandexpansion:block/superior_slab_top"
+    }
+  }
+}

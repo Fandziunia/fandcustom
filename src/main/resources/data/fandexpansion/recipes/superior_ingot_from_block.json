@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "fandexpansion:superior_block"
+        }
+    ],
+    "result": {
+        "item": "fandexpansion:superior_ingot",
+        "count": 9
+    }
+}
