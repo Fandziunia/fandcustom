@@ -58,7 +58,7 @@ public class FandBlocks {
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(FandExpansion.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+                new BlockItem(block, new FabricItemSettings().rarity(Rarity.EPIC)));
     }
 
     public static void registerFandBlocks() {
