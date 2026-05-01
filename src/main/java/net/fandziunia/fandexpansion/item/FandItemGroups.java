@@ -25,6 +25,10 @@ public class FandItemGroups {
             entries.add(FandItems.SUPERIOR_AXE);
             entries.add(FandItems.SUPERIOR_SHOVEL);
             entries.add(FandItems.SUPERIOR_HOE);
+            entries.add(FandItems.SUPERIOR_HELMET);
+            entries.add(FandItems.SUPERIOR_CHESTPLATE);
+            entries.add(FandItems.SUPERIOR_LEGGINGS);
+            entries.add(FandItems.SUPERIOR_BOOTS);
 
             entries.add(FandBlocks.SUPERIOR_BLOCK);
             entries.add(FandBlocks.SUPERIOR_SLAB);

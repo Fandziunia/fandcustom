@@ -7,6 +7,7 @@ import net.fandziunia.fandexpansion.item.FandItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class FandModelProvider extends FabricModelProvider {
     public FandModelProvider(FabricDataOutput output) {
@@ -40,5 +41,10 @@ public class FandModelProvider extends FabricModelProvider {
         itemModelGenerator.register(FandItems.SUPERIOR_INGOT, Models.GENERATED);
         itemModelGenerator.register(FandItems.SUPERIOR_NUGGET, Models.GENERATED);
         itemModelGenerator.register(FandItems.SUPERIOR_PARTICLE, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) FandItems.SUPERIOR_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) FandItems.SUPERIOR_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) FandItems.SUPERIOR_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) FandItems.SUPERIOR_BOOTS));
     }
 }
