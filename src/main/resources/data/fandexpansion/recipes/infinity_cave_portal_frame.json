@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AUA",
+        "TST",
+        "AUA"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stone_bricks"
+        },
+        "A": {
+            "item": "fandexpansion:dense_lapis_ore"
+        },
+        "U": {
+            "item": "fandexpansion:dense_deepslate_lapis_ore"
+        },
+        "T": {
+            "item": "fandexpansion:dense_deepslate_emerald_ore"
+        }
+    },
+    "result": {
+        "item": "fandexpansion:infinity_cave_portal_frame",
+        "count": 1
+    }
+}

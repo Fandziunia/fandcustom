@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SAS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "A": {
+      "item": "fandexpansion:infinity_cave_portal_frame"
+    }
+  },
+  "result": {
+    "item": "fandexpansion:infinity_cave_portal_frame",
+    "count": 1
+  }
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-30T22:38:45.7354006	Fand's Expansion/Block Loot Tables
+// 1.20.1	2026-05-02T19:59:06.7366621	Fand's Expansion/Block Loot Tables
 3f7f55c1cdaf60a117f71cfc1759a0b132a67b3c data\fandexpansion\loot_tables\blocks\superior_trapdoor.json
 b10b104d7486f529ec0f605d0dab27cd911176e2 data\fandexpansion\loot_tables\blocks\superior_pressure_plate.json
 cecd1f4cef8ede12b1c7c4cc5e07f908e97e1dc2 data\fandexpansion\loot_tables\blocks\superior_button.json
@@ -8,4 +8,5 @@ eafbf234afc7e99b6a36545ca1f26210582ebbdf data\fandexpansion\loot_tables\blocks\s
 ad123a30dd0331e80db4a8e6a15140109ace6b8c data\fandexpansion\loot_tables\blocks\superior_fence_gate.json
 8d0cc64d6200125dea983e8f279a002050085258 data\fandexpansion\loot_tables\blocks\superior_stairs.json
 e9ceada3d303bf89bb3cf6896d3c6f6499bd0f91 data\fandexpansion\loot_tables\blocks\superior_block.json
+580e098cc7beb6955449dc99e88c3b9d35e46ccc data\fandexpansion\loot_tables\blocks\infinity_cave_portal_frame.json
 9c9502658494ec95551806a872310e85d15cbea7 data\fandexpansion\loot_tables\blocks\superior_wall.json

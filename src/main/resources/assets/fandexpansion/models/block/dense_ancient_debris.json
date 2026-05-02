@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fandexpansion:block/dense_ancient_debris_top",
+    "side": "fandexpansion:block/dense_ancient_debris_side"
+  }
+}

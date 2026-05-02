@@ -30,20 +30,21 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
         addDrop(FandBlocks.SUPERIOR_WALL);
         addDrop(FandBlocks.SUPERIOR_BUTTON);
         addDrop(FandBlocks.SUPERIOR_PRESSURE_PLATE);
+        addDrop(FandBlocks.INFINITY_CAVE_PORTAL_FRAME);
         addDrop(FandBlocks.SUPERIOR_DOOR, doorDrops(FandBlocks.SUPERIOR_DOOR));
         addDrop(FandBlocks.SUPERIOR_TRAPDOOR);
         addDrop(FandBlocks.SUPERIOR_SLAB, slabDrops(FandBlocks.SUPERIOR_SLAB));
 
-        //addDrop(FandBlocks.SUPERIOR_BLOCK, copperOreLikeDrops(FandBlocks.SUPERIOR_BLOCK, FandItems.SUPERIOR_NUGGET)); Ore drop datagen
+        //addDrop(FandBlocks.DENSE_COAL_ORE, densecoaloredrops(FandBlocks.DENSE_COAL_ORE, Items.COAL));
     }
 
-   /* public LootTable.Builder copperOreLikeDrops(Block drop, Item item) {
+   /*public LootTable.Builder densecoaloredrops(Block drop, Item item) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
                 ((LeafEntry.Builder)
                     ItemEntry.builder(item)
                         .apply(SetCountLootFunction
                                 .builder(UniformLootNumberProvider
-                                        .create(2.0f, 5.0f))))
+                                        .create(3.0f, 5.0f))))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }*/
 }

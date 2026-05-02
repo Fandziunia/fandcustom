@@ -20,9 +20,9 @@ public class FandDimensions {
     public static final RegistryKey<World> FANDDIM_LEVEL_KEY = RegistryKey.of(RegistryKeys.WORLD,
             new Identifier(FandExpansion.MOD_ID, "infinitycave"));
     public static final RegistryKey<DimensionType> FAND_DIM_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
-            new Identifier(FandExpansion.MOD_ID, "infinite_caves_type"));
+            new Identifier(FandExpansion.MOD_ID, "infinitycave"));
 
-    public static void bootstrapType(Registerable<DimensionType> context){
+   /* public static void bootstrapType(Registerable<DimensionType> context){
         context.register(FAND_DIM_TYPE, new DimensionType(
                 OptionalLong.of(18000), //fixed time
                 false, //has skylight
@@ -39,5 +39,5 @@ public class FandDimensions {
                 DimensionTypes.OVERWORLD_ID, //effects location
                 0.0f, //ambient light
                 new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 0), 0)));
-    }
+    }*/
 }

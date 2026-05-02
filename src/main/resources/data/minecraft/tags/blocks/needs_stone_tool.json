@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fandexpansion:dense_copper_ore",
+    "fandexpansion:dense_iron_ore",
+    "fandexpansion:dense_lapis_ore",
+
+    "fandexpansion:dense_deepslate_copper_ore",
+    "fandexpansion:dense_deepslate_iron_ore",
+    "fandexpansion:dense_deepslate_lapis_ore"
+  ]
+}

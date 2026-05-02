@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#Q#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "fandexpansion:superior_ingot"
+        },
+         "Q": {
+            "item": "mythicupgrades:sapphire_hoe"
+        }
+    },
+    "result": {
+        "item": "fandexpansion:superior_hoe",
+        "count": 1
+    }
+}

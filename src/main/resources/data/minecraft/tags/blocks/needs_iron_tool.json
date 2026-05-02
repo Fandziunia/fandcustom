@@ -1,6 +1,14 @@
 {
     "replace": false,
     "values": [
-        
+    "fandexpansion:dense_gold_ore",
+    "fandexpansion:dense_redstone_ore",
+    "fandexpansion:dense_diamond_ore",
+    "fandexpansion:dense_emerald_ore",
+
+    "fandexpansion:dense_deepslate_gold_ore",
+    "fandexpansion:dense_deepslate_redstone_ore",
+    "fandexpansion:dense_deepslate_diamond_ore",
+    "fandexpansion:dense_deepslate_emerald_ore"
     ]
 }

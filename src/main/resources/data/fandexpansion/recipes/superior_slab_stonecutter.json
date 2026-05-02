@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "fandexpansion:superior_block"
+  },
+  "result": "fandexpansion:superior_slab"
+}

@@ -13,6 +13,8 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	maven {url = "https://maven.kyrptonaught.dev"}
+	maven { url "https://maven.ladysnake.org/releases" }
+	maven {	url "https://cursemaven.com" }
 }
 
 fabricApi {
@@ -29,6 +31,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	modImplementation include("io.github.ladysnake:PlayerAbilityLib:${pal_version}") //1.8.0
 
 	modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20'
 	include 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20'

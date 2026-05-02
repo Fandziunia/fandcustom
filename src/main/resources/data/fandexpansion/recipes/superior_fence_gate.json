@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A#A",
+        "A#A"
+    ],
+    "key": {
+        "#": {
+            "item": "fandexpansion:superior_block"
+        },
+         "A": {
+            "item": "fandexpansion:superior_ingot"
+        }
+    },
+    "result": {
+        "item": "fandexpansion:superior_fence_gate",
+        "count": 9
+    }
+}

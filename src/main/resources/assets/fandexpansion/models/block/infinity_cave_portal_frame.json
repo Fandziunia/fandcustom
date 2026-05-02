@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fandexpansion:block/infinity_cave_portal_frame"
+  }
+}

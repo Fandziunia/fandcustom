@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "fandexpansion:superior_ingot"
+        }
+    },
+    "result": {
+        "item": "fandexpansion:superior_trapdoor",
+        "count": 1
+    }
+}

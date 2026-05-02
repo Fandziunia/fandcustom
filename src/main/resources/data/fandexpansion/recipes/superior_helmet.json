@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#Q#"
+        
+    ],
+    "key": {
+        "#": {
+            "item": "fandexpansion:superior_ingot"
+        },
+         "Q": {
+            "item": "techreborn:quantum_helmet"
+        }
+    },
+    "result": {
+        "item": "fandexpansion:superior_helmet",
+        "count": 1
+    }
+}

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "fandexpansion:superior_block"
+        "fandexpansion:superior_block",
+        "fandexpansion:dense_ancient_debris"
     ]
 }

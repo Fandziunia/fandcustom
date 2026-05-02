@@ -40,6 +40,28 @@ public class FandItemGroups {
             entries.add(FandBlocks.SUPERIOR_PRESSURE_PLATE);
             entries.add(FandBlocks.SUPERIOR_DOOR);
             entries.add(FandBlocks.SUPERIOR_TRAPDOOR);
+
+            entries.add(FandBlocks.DENSE_COAL_ORE);
+            entries.add(FandBlocks.DENSE_COPPER_ORE);
+            entries.add(FandBlocks.DENSE_IRON_ORE);
+            entries.add(FandBlocks.DENSE_REDSTONE_ORE);
+            entries.add(FandBlocks.DENSE_GOLD_ORE);
+            entries.add(FandBlocks.DENSE_LAPIS_ORE);
+            entries.add(FandBlocks.DENSE_DIAMOND_ORE);
+            entries.add(FandBlocks.DENSE_EMERALD_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_COAL_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_COPPER_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_IRON_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_REDSTONE_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_GOLD_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_LAPIS_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_DIAMOND_ORE);
+            entries.add(FandBlocks.DENSE_DEEPSLATE_EMERALD_ORE);
+            entries.add(FandBlocks.DENSE_NETHER_QUARTZ_ORE);
+            entries.add(FandBlocks.DENSE_NETHER_GOLD_ORE);
+            entries.add(FandBlocks.DENSE_ANCIENT_DEBRIS);
+
+            entries.add(FandBlocks.INFINITY_CAVE_PORTAL_FRAME);
             }).build());
 
     public static void registerItemGroups(){
